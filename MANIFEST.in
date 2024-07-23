@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include food_order_app *.css
+recursive-include food_order_app *.csv
+recursive-include food_order_app *.html
+recursive-include food_order_app *.ico
+recursive-include food_order_app *.js
+recursive-include food_order_app *.json
+recursive-include food_order_app *.md
+recursive-include food_order_app *.png
+recursive-include food_order_app *.py
+recursive-include food_order_app *.svg
+recursive-include food_order_app *.txt
+recursive-exclude food_order_app *.pyc
